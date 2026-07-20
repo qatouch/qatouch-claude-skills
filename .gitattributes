@@ -1,0 +1,21 @@
+# Auto detect text files and perform LF normalization
+* text=auto eol=lf
+
+# Shell scripts must use LF
+*.sh text eol=lf
+
+# Markdown documentation
+*.md text
+
+# Batch files must retain CRLF
+*.bat text eol=crlf
+
+# Archives are binary
+*.zip binary
+*.tar binary
+*.gz binary
+*.tgz binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary

@@ -1,0 +1,30 @@
+# .gitignore
+
+## Editor and IDE files
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.sublime-*
+.project
+.classpath
+.settings/
+
+## OS files
+.DS_Store
+.DS_Store?
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+## Temporary and backup files
+*.tmp
+*.temp
+*.bak
+*.backup
+*.log
+*.cache
+.cache/
+
+## Do NOT ignore .skill files. They are published artifacts.
