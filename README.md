@@ -50,15 +50,16 @@ publishing Claude Skills, QA Touch aims to:
 
 ## Installation
 
-See [docs/installation.md](docs/installation.md) for detailed instructions on
-cloning this repository, downloading individual `.skill` files, and importing
-them into Claude.
+Each installable Claude Skill is a `.skill` file located directly inside the
+`skills/` folder. See [docs/installation.md](docs/installation.md) for detailed
+instructions.
 
 In short:
 
-1. Clone this repository or download an individual `.skill` file.
-2. Import the `.skill` file into your Claude environment.
-3. Invoke the skill by name when you need it.
+1. Browse to the `skills/` folder and download the desired `.skill` file.
+2. Open Claude Desktop and go to **Settings → Customize → Skills**.
+3. Click **Add**, select **Upload a Skill**, and choose the downloaded file.
+4. Invoke the skill using `/skill-name` whenever you need it.
 
 ## Usage
 
@@ -78,20 +79,6 @@ Contributions are welcome. Please read
 [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request. It covers
 documentation standards, naming conventions, the pull request process, and a
 testing checklist for publishing skills.
-
-## Roadmap
-
-The following skills are planned for future release. They are listed for
-visibility only and are not yet available or documented:
-
-- Playwright Recorder
-- Bug Report Generator
-- Requirement Analyzer
-- Test Data Generator
-- Regression Suite Generator
-- Exploratory Testing Assistant
-- Release Validation
-- QA Touch MCP Utilities
 
 ## License
 

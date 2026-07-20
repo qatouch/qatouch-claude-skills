@@ -27,9 +27,11 @@ requirements).
 
 ## Keeping Skills Updated
 
-Skills improve over time. Check the repository `CHANGELOG.md` and each skill's
-description for version changes. Re-import the latest `.skill` file when an
-update is available. See [installation.md](installation.md) for update steps.
+Each installable Claude Skill is a `.skill` file located directly inside the
+`skills/` folder. Skills improve over time. Check the repository `CHANGELOG.md`
+and each skill's description for version changes, then re-import the latest
+`.skill` file using the workflow in [installation.md](installation.md) when an
+update is available. Invoke a skill using `/skill-name` whenever you need it.
 
 ## Using Skills with Connectors
 

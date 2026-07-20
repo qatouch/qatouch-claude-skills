@@ -19,13 +19,8 @@ After cloning, all installable skills are available directly inside the
 ## Downloading Individual `.skill` Files
 
 If you only need a single skill, you can download its `.skill` file directly
-from the repository without cloning everything. All `.skill` files live directly
-inside the `skills/` directory.
-
-1. Navigate to the `skills` folder in this repository.
-2. Download the desired `.skill` file (for example
-   `jira-qatouch-case-generator.skill`).
-3. Import the downloaded file into Claude Desktop.
+from the `skills/` folder without cloning everything. All `.skill` files live
+directly inside the `skills/` directory.
 
 You can also download a specific skill archive with a direct URL:
 
@@ -37,27 +32,31 @@ curl -L -o jira-qatouch-case-generator.skill \
 
 Adjust the URL to match the skill and branch you need.
 
-## Importing Skills into Claude
+## Importing a Skill into Claude Desktop
 
-Claude Skills are imported as `.skill` archives. The import process generally
-follows these steps:
+Each installable Claude Skill is a `.skill` file located directly inside the
+`skills/` folder. To install a skill:
 
-1. Open your Claude environment or client.
-2. Locate the option to manage or import skills (often found in the skills or
-   settings area).
-3. Select the `.skill` file you downloaded or cloned.
-4. Confirm the import. The skill becomes available by its name.
-
-Because the exact menu labels may change between Claude releases, refer to the
-official Claude documentation for the most current import instructions. The
-`.skill` file format remains stable regardless of UI changes.
+1. Browse to the `skills/` folder in this repository.
+2. Download the desired `.skill` file.
+3. Open Claude Desktop.
+4. Go to **Settings → Customize → Skills**.
+5. Click **Add**.
+6. Select **Upload a Skill**.
+7. Choose the downloaded `.skill` file.
+8. Import the `.skill` file into your Claude environment.
+9. Invoke the skill using `/skill-name` whenever you need it.
 
 ## Updating Skills
 
-To update a skill to a newer version:
+Each installable Claude Skill is a `.skill` file located directly inside the
+`skills/` folder. To update a skill to a newer version:
 
-1. Re-download the latest `.skill` file from this repository.
-2. Import the new version into Claude, replacing the previous one.
+1. Browse to the `skills/` folder in this repository.
+2. Download the latest `.skill` file for the skill.
+3. Open Claude Desktop.
+4. Go to **Settings → Customize → Skills**.
+5. Upload the new `.skill` file, replacing the previous version.
 
 We recommend tracking the version number recorded in the repository
 `CHANGELOG.md` and `skills/README.md` so you know when an update is available.

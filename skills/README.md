@@ -34,6 +34,17 @@ skills/
 
 ## Installation
 
-To install a skill, navigate to this `skills` folder, download the desired
-`.skill` file, and import it into Claude Desktop. See
-[installation.md](../docs/installation.md) for full instructions.
+Each installable Claude Skill is a `.skill` file located directly inside this
+`skills/` folder. To install a skill:
+
+1. Browse to the `skills/` folder in this repository.
+2. Download the desired `.skill` file.
+3. Open Claude Desktop.
+4. Go to **Settings → Customize → Skills**.
+5. Click **Add**.
+6. Select **Upload a Skill**.
+7. Choose the downloaded `.skill` file.
+8. Import the `.skill` file into your Claude environment.
+9. Invoke the skill using `/skill-name` whenever you need it.
+
+See [installation.md](../docs/installation.md) for full instructions.

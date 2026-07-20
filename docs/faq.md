@@ -36,5 +36,5 @@ or report security issues privately as described in `SECURITY.md`.
 
 Yes. QA Touch plans to publish additional skills over time covering automation,
 bug reporting, requirement analysis, test generation, release management, and
-more. See the Roadmap section in the main `README.md` for a list of planned
-skills.
+more. Check the repository and the `skills/` folder for newly added `.skill`
+files.
