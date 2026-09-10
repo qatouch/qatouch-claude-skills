@@ -47,6 +47,7 @@ publishing Claude Skills, QA Touch aims to:
 | Skill | File | Description | Status |
 |------|------|-------------|--------|
 | Jira QA Touch Case Generator | [`jira-qatouch-case-generator.skill`](skills/jira-qatouch-case-generator.skill) | Generates QA Touch import-ready manual test cases directly from Jira Stories | Available |
+| Capture Browser Automatically Action | [`jira-qatouch-case-generator.skill`](skills/qatouch-capture-testcases.skill) | Automatically Capture Browser Actions generate Test Case Steps | Available |
 
 ## Installation
 
